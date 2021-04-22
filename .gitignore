@@ -1,7 +1,0 @@
-.pio
-.vscode
-include
-lib/README
-test
-.gitignore
-platformio.ini
