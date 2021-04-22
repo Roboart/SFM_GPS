@@ -76,7 +76,7 @@ void loop() {
             esta funcion debe ser llamada antes de gpsFillData() para que se alcance a imprimir el string RAW recibido.
         */
         if(digitalRead(gpsDebugButtons)){
-            Serial.println(getDataGPS());
+            debugSerialPort.println(getDataGPS());
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
