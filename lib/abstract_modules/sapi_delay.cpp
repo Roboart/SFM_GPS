@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <sapi_delay.h>
 
+//millis() => se acutaliza al miliSegundo
+
 /* ---- Non Blocking Delay ---- */
 
 void delayInit( delay_t * delay, tick_t duration )
